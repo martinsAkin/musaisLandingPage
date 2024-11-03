@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ color: white;
+ font-family: "Kodchasan", sans-serif;
+ font-weight: 600;
+ font-style: semibold;
+}
+i{
+ color: white;
+}
+.fa-regular{
+ color: black;
+ font-size: larger;
+}
+.fa-crown{
+ color: gold;
+ font-size: small;
+ position: absolute;
+ top: 14.7rem;
+}
+.fa-solid{
+ color: black;
+}
+body{
+ /* background: linear-gradient(to left, #103310, #010a06,#103313); */
+ background-image: url('/images/cd4666a9-3386-49dc-9ecf-5407cdef1180_20241029_083851_0000.png');
+ text-align: center;
+ font-family: "Kodchasan";
+}
+.heading{
+ text-align: center;
+ color: white;
+ font-size: 25px;
+ margin-bottom: 2rem;
+ position: relative;
+}
+.heading #logo{
+ height: 3rem;
+}
+.heading .underline{
+ margin: 0 auto;
+ transform: rotate(-1deg);
+ width: 10rem;
+}
+#logoSection{
+ text-align: center;
+ display: flex; 
+ align-items: center;
+ margin: 1rem 0 5rem 45%;
+}
+.sparkles{
+ position: absolute;
+ margin-top: 1.5rem;
+ left: 36.5%;
+}
+#Main-star{
+ height: 2rem;
+}
+#star{
+ height: 0.5rem;
+ position: absolute;
+ left: 1.5rem;
+ top: 0.2rem;
+}
+#flower{
+ height: 2.5rem;
+ color: white;
+ margin-left: -0.8rem;
+ position: absolute;
+ top: 7rem;
+}
+#Chat-Amena-Btn{
+ color: black;
+ margin-top: 0 auto;
+ display: flex;
+ justify-content: center;
+ justify-self: center;
+ gap: 0.3rem;
+ padding: 1rem;
+ border: none;
+ font-weight: bolder;
+ border-radius: 30px;
+}
+.workDisplay{
+ display: flex;
+}
+.workDisplay img{
+ height: 24.56rem;
+}
+svg{
+ color: white;
+ background-color: white;
+}
+#why-Choose-Us{
+ background: linear-gradient(to bottom, rgba(4, 34, 6, 0.5), rgba(0, 0, 0, 0.5)), url("/images/DOTS.png");
+ background-size: 400px;
+ margin: 3rem 15rem;
+ padding: 2rem 3rem 3rem 3rem;
+ border: 1px grey solid;
+ text-align: center;
+ border-radius: 25px;
+ box-shadow: 2px 2px 2px 0.5px grey;
+}
+#ChooseUS-heading{
+ font-size: 45px;
+}
+.choice span{
+ font-size: medium;
+}
+#ClientsChoice{
+ margin-top: 1.5rem;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ gap: 2rem;
+ align-items: center;
+}
+.choice{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.icon-Bg i{
+ font-size: 50px;
+}
+.choice p{
+ font-size: 10px;
+}
+.icon-Bg{
+ border: none;
+ border-radius: 10px;
+ background-color: white;
+ height: 5rem;
+ width: 5rem;
+ padding: 0.8rem;
+ display: flex;
+ align-items: center;
+}
+.icon-Bg img{
+ height: 5rem;
+ margin-left: -0.5rem;
+}
+.designs{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background: url('/images/DOTS.png');
+ background-size: 400px;
+}
+.designs img{
+ width: 50rem;
+ margin-top: 2rem;
+}
+.underline{
+ height: 0.3rem;
+ border-top-left-radius: 50%;
+ border-bottom-left-radius: 30%;
+ border-top-right-radius: 50%;
+ border-bottom-right-radius: 50%;
+ background-color: white;
+ width: 15rem;
+ transform: rotate(-3.4deg);
+}
+#why-Choose-Us .underline{
+ margin-left: 10rem;
+ width: 30rem;
+ transform: rotate(-2deg);
+}
+.expertise{
+ margin-top: 2.5rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.expertise .underline, .testimonials .underline{
+ transform: rotate(-1deg);
+}
+.creativity{
+ margin-top: 1rem;
+ font-size: 17px;
+ width: 30rem;
+}
+.expertiseBoxes{
+ margin-top: 2rem;
+}
+.firstthreebox, .secondthreebox{
+ display: flex;
+ gap: 1rem;
+ margin-bottom: 0.9rem;
+ position: relative;
+}
+.stbox, .ndbox, .rdbox, .thbox-4, .thbox-5, .thbox-6{
+ height: 10rem;
+ border: 2px solid whitesmoke;
+ box-shadow: 2px 3px 7px rgb(36, 35, 35);
+ border-radius: 26px; 
+ width: 15rem;
+ padding: 4.5rem 1rem;
+ position: absolute;
+ background-color: rgb(6, 58, 6);
+}
+.stbox{
+ transform: rotate(-5deg);
+ margin-left: -19rem;
+ z-index: 2;
+}
+.ndbox{
+ transform: rotate(10deg);
+ margin-left: -5rem;
+}
+.rdbox{
+ transform: rotate(-8deg);
+ margin-left: 9.7rem;
+ z-index: 4;
+}
+.thbox-4{
+ margin-top: 9rem;
+ transform: rotate(-15deg);
+ margin-left: -17rem;
+ z-index: 3;
+}
+.thbox-5{
+ margin-top: 8rem;
+ transform: rotate(-4deg);
+ margin-left: -4rem;
+}
+.thbox-6{
+ margin-top: 9rem;
+ transform: rotate(10deg);
+ margin-left: 9.6rem;
+}
+.testimonials{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 23rem; 
+}
+.testimonial-Grid{
+ display: flex;
+ gap: 0.7rem;
+ margin-top: 1rem;
+}
+.first-Col, .second-Col, .third-Col{
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ height: 30rem;
+}
+.first-col-frame, .first-col-frame2, .first-col-frame3, .second-col-frame, .second-col-frame2, .second-col-frame3, .third-col-frame, .third-col-frame2{
+ background-color: gainsboro;
+ width: 15rem;
+}
+.first-col-frame{
+ height: 15rem;
+}
+.first-col-frame2{
+ height: 10rem;
+}
+.first-col-frame3{
+ height: 5rem;
+}
+.second-col-frame, .second-col-frame2{
+ height: 10rem;
+}
+.second-col-frame3{
+ height: 10rem;
+}
+.third-col-frame{
+ height: 20rem;
+}
+.third-col-frame2{
+ height: 10rem;
+}
+.pricing{
+ margin-top: 3.5rem;
+ background-image: url('/images/DOTS.png');
+ background-size: 400px;
+ 
+}
+.price-Options{
+ background: transparent;
+ color: white;
+ border: 2px rgb(214, 203, 203) solid;
+ width: 20rem;
+ border-radius: 20px;
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ text-align: center;
+ margin: 0 auto;
+ margin-bottom: 1rem;
+ position: relative;
+}
+#percent{
+ position: absolute;
+ background-color: red;
+ right: -1.3rem;
+ padding: 0.2rem;
+ top: -0.6rem;
+ transform: rotate(30deg);
+}
+.monthly-pricing{
+ background-color: rgb(15, 214, 15);
+ width: 10rem;
+ padding: 0.5rem 1rem 0.5rem 2rem;
+ border-radius: 20px;
+}
+.yearly-pricing{
+ width: 10rem;
+ height: 100%;
+ padding: 0.5rem;
+ padding-right: 2rem;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+.pricing .underline{
+ margin: 0 auto;
+ width: 23rem;
+ transform: rotate(-1deg);
+}
+.price-Boxes{
+ margin: 2rem 10rem;
+ height: 25rem;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+}
+.side-boxes{
+ border: 1px solid rgb(223, 208, 208);
+ padding: 2rem;
+ margin-top: 1rem;
+ width: 19rem;
+ border-radius: 25px;
+ background: linear-gradient(to bottom left, rgb(5, 17, 5), rgb(8, 32, 8),  rgb(5, 17, 5));
+ box-shadow: 0 0 10px rgba(104, 98, 98, 0.5);
+}
+.center-box{
+ border: 1px solid gainsboro;
+ background: linear-gradient(-135deg, #06290b, rgb(24, 39, 30), #080808);
+ padding: 2rem;
+ width: 19rem;
+ border-radius: 25px;
+ height: 27rem;
+ box-shadow: 0 0 10px rgba(231, 224, 224, 0.5);
+}
+.getStarted{
+ padding: 0.5rem 2rem;
+ background: linear-gradient(to bottom left, rgb(5, 5, 5), rgb(18, 20, 18), rgb(3, 20, 3));
+ border: none;
+ font-weight: bolder;
+ border-radius: 10px;
+ border: 1px solid gainsboro;
+}
+.center-box .getStarted-center{
+ background-color: white;
+ padding: 0.5rem 2rem;
+ border: none;
+ border-radius: 10px;
+ color: black;
+ font-weight: bolder;                                                                       
+}
+.price-Boxes ol{
+ margin-top: 1rem;
+ display: flex;
+ gap: 0.5rem;
+ text-align: left;
+ align-items: center;
+ flex-direction: column;
+}
+.listOptions{
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+}
+.listOptions i{
+ color: rgb(102, 146, 12);
+ padding-right: 15px;
+ font-size: 25px;
+}
+.listOptions span{
+ display: inline-block;
+ margin-top: 0.5rem;
+ text-align: left;
+ margin-left: 1.5rem;
+}
+footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+padding: 3rem;
+margin-top: 2rem;
+}
+footer img{
+ height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media Query */
+@media (min-width: 320px) and (max-width: 500px){
+ .workDisplay{
+  overflow: scroll;
+  /* overflow-y: scroll; */
+ }
+ #why-Choose-Us{ 
+  margin: 0 auto;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border: 1px grey solid;
+  text-align: center;
+  border-radius: 25px;
+  margin: 1rem;
+  /* box-shadow: 2px 2px 2px 0.5px grey;   */
+ }
+#why-Choose-Us .underline{
+margin: 0 auto;
+width: 20rem;
+transform: rotate(0deg);
+}
+#ChooseUS-heading{
+ font-size: 35px;
+}
+#ClientsChoice{
+ display: flex;
+ gap: 0.5rem;
+}
+.designs{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 1.5rem;
+}
+.designs img{
+ width: 25rem;
+ margin-top: 2rem;
+}
+.underline{
+ height: 0.2rem;
+ transform: rotate(-1deg);
+}
+.creativity{
+ margin-top: 1rem;
+ font-size: 15px;
+ width: 25rem;
+}
+.stbox, .ndbox, .rdbox, .thbox-4, .thbox-5, .thbox-6{
+ width: 9rem;
+ height: 8rem;
+ padding: 2rem 1rem;
+}
+.stbox{
+ transform: rotate(-5deg);
+ margin-left: -10rem;
+ z-index: 2;
+}
+.ndbox{
+ transform: rotate(10deg);
+ margin-left: -2rem;
+}
+.rdbox{
+ transform: rotate(-8deg);
+ margin-left: 6rem;
+ z-index: 4;
+}
+.thbox-4{
+ margin-top: 6rem;
+ transform: rotate(-15deg);
+ margin-left: -9rem;
+ z-index: 3;
+}
+.thbox-5{
+ margin-top: 5rem;
+ transform: rotate(-4deg);
+ margin-left: -2rem;
+}
+.thbox-6{
+ margin-top: 6rem;
+ transform: rotate(10deg);
+ margin-left: 5rem;
+}
+.expertiseBoxes{
+ margin-right: 5rem;
+}
+.testimonials{
+ margin-top: 18rem; 
+}
+.testimonial-Grid{
+ padding: 0 3rem;
+}
+.first-Col, .second-Col, .third-Col{
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ height: 20rem;
+}
+.first-col-frame, .first-col-frame2, .first-col-frame3, .second-col-frame, .second-col-frame2, .second-col-frame3, .third-col-frame, .third-col-frame2{
+ background-color: gainsboro;
+ width: 8rem;
+}
+.side-boxes{
+ padding: 1rem;
+ margin-top: 1rem;
+ width: 15rem;
+ height: max-content;
+}
+.center-box{
+ padding: 1rem;
+ width: 15rem;
+ height: max-content;
+}
+.getStarted, .getStarted-center{
+ padding: 0.5rem;
+}
+.getStarted-center{
+ padding: 0;
+ width: 10rem;
+ font-size: 13px;
+ font-weight: 200;
+}
+.side-boxes{
+ width: 10rem;
+}
+/* .listOptions{
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+} */
+.listOptions i{
+ padding-right: 5px;
+ font-size: 15px;
+}
+.listOptions span{
+ margin-left: 1rem;
+ font-size: 15px;
+}
+}
