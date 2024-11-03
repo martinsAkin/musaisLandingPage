@@ -26,7 +26,7 @@ i{
 }
 body{
  /* background: linear-gradient(to left, #103310, #010a06,#103313); */
- background-image: url('/images/cd4666a9-3386-49dc-9ecf-5407cdef1180_20241029_083851_0000.png');
+ background-image: url('cd4666a9-3386-49dc-9ecf-5407cdef1180_20241029_083851_0000.png');
  text-align: center;
  font-family: "Kodchasan";
 }
@@ -95,7 +95,7 @@ svg{
  background-color: white;
 }
 #why-Choose-Us{
- background: linear-gradient(to bottom, rgba(4, 34, 6, 0.5), rgba(0, 0, 0, 0.5)), url("/images/DOTS.png");
+ background: linear-gradient(to bottom, rgba(4, 34, 6, 0.5), rgba(0, 0, 0, 0.5)), url("DOTS.png");
  background-size: 400px;
  margin: 3rem 15rem;
  padding: 2rem 3rem 3rem 3rem;
@@ -149,7 +149,7 @@ svg{
  align-items: center;
  justify-content: center;
  flex-direction: column;
- background: url('/images/DOTS.png');
+ background: url('DOTS.png');
  background-size: 400px;
 }
 .designs img{
@@ -278,9 +278,8 @@ svg{
 }
 .pricing{
  margin-top: 3.5rem;
- background-image: url('/images/DOTS.png');
+ background-image: url('DOTS.png');
  background-size: 400px;
- 
 }
 .price-Options{
  background: transparent;
