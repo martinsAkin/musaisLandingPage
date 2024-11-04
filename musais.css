@@ -422,7 +422,7 @@ footer img{
 
 
 /* media Query */
-@media (min-width: 320px) and (max-width: 500px){
+@media (min-width: 320px) and (max-width: 900px){
  .heading{
   font-size: 15px;
  }
@@ -586,4 +586,37 @@ display: none;
 footer{
  margin-top: 26.5rem;
 }
+}
+
+/* for screen resolution > mobile phones < PCs, Laptops */
+@media (min-width: 768px) and (max-width: 1250px){
+ .sparkles{
+  left: 35%;
+  top: 8.5rem;
+ }
+ #Main-star{
+  height: 1.5rem;
+ }
+ #star{
+  left: 1rem;
+ }
+ .price-Boxes{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin: 2rem 5rem;
+  margin-bottom: 0;
+ }
+ .side-boxes{
+  width: 22rem;
+ }
+ .center-box{
+  width: 20rem;
+ }
+ .getStarted{
+  padding: 0.9rem;
+ }
+ footer{
+  margin-top: 0;
+ }
 }
