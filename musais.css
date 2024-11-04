@@ -86,9 +86,11 @@ body{
 }
 .workDisplay{
  display: flex;
+ width: 100dvw;
 }
 .workDisplay img{
  height: 24.75rem;
+ width: 100vw;
 }
 svg{
  color: white;
