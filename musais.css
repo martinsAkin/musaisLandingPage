@@ -19,7 +19,7 @@ i{
  color: gold;
  font-size: small;
  position: absolute;
- top: 14.7rem;
+ top: 14.0rem;
 }
 .fa-solid{
  color: black;
@@ -86,12 +86,21 @@ body{
 }
 .workDisplay{
  display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+.workDisplay img{
+ height: 24.7rem;
+ /* width: max-content; */
+}
+/* .workDisplay{
+ display: flex;
  width: 100dvw;
 }
 .workDisplay img{
- height: 24.75rem;
- width: 100vw;
-}
+ height: 24.16rem;
+ width: 100dvw;
+} */
 svg{
  color: white;
  background-color: white;
@@ -363,7 +372,7 @@ svg{
  border: none;
  border-radius: 10px;
  color: black;
- font-weight: bolder;                                                                       
+ font-weight: bolder;                          
 }
 .price-Boxes ol{
  margin-top: 1rem;
@@ -441,7 +450,11 @@ footer img{
  }
  .workDisplay{
   overflow: scroll;
-  /* overflow-y: scroll; */
+  display: flex;
+  /* flex-shrink: 1;
+  flex-grow: 1; */
+  flex-wrap: nowrap;
+  overflow-y: scroll;
  }
  #why-Choose-Us{ 
   margin: 0 auto;
@@ -453,9 +466,7 @@ footer img{
   /* box-shadow: 2px 2px 2px 0.5px grey;   */
  }
 #why-Choose-Us .underline{
-margin: 0 auto;
-width: 20rem;
-transform: rotate(0deg);
+display: none;
 }
 #ChooseUS-heading{
  font-size: 35px;
@@ -476,8 +487,7 @@ transform: rotate(0deg);
  margin-top: 2rem;
 }
 .underline{
- height: 0.2rem;
- transform: rotate(-1deg);
+ display: none;
 }
 .creativity{
  margin-top: 1rem;
@@ -523,7 +533,9 @@ transform: rotate(0deg);
  margin-right: 5rem;
 }
 .testimonials{
- margin-top: 18rem; 
+ margin-top: 18rem;
+ margin-left: 1rem;
+ margin-right: 1rem;
 }
 .testimonial-Grid{
  padding: 0 3rem;
@@ -538,6 +550,15 @@ transform: rotate(0deg);
  background-color: gainsboro;
  width: 8rem;
 }
+.price-Boxes{
+ margin: 2rem 7rem;
+ height: 25rem;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ flex-direction: column;
+ margin-top: 18rem;
+}
 .side-boxes{
  padding: 1rem;
  margin-top: 1rem;
@@ -549,18 +570,11 @@ transform: rotate(0deg);
  width: 15rem;
  height: max-content;
 }
-.getStarted, .getStarted-center{
- padding: 0.5rem;
+.center-box .getStarted-center{
+ background-color: white;
+ padding: 0.5rem;                          
 }
-.getStarted-center{
- padding: 0;
- width: 10rem;
- font-size: 13px;
- font-weight: 200;
-}
-.side-boxes{
- width: 10rem;
-}
+
 .listOptions i{
  padding-right: 5px;
  font-size: 15px;
@@ -568,25 +582,6 @@ transform: rotate(0deg);
 .listOptions span{
  margin-left: 1rem;
  font-size: 15px;
-}
-.side-boxes{
- padding: 1rem;
- margin-top: 1rem;
- width: 19rem;
-}
-.center-box{
- padding: 1rem;
- width: 15rem;
- height: max-content;
- position: absolute;
- top: 191.5rem;
-}
-.getStarted{
- padding: 0.5rem 1rem;
- font-weight: bolder;
-}
-.getStarted-center{
- padding: 0.5rem 1rem;
 }
 footer{
  margin-top: 26.5rem;
