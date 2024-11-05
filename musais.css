@@ -19,7 +19,7 @@ i{
  color: gold;
  font-size: small;
  position: absolute;
- top: 14.4rem;
+ top: 14.0rem;
 }
 .fa-solid{
  color: black;
@@ -602,8 +602,8 @@ footer{
 @media (min-width: 768px) and (max-width: 1023px){
  
  .sparkles{
-  left: 35%;
-  top: 8.5rem;
+  left: 29%;
+  top: 11rem;
  }
  #Main-star{
   height: 1.5rem;
@@ -611,6 +611,9 @@ footer{
  #star{
   left: 1rem;
  }
+ .fa-crown{
+ top: 14.7rem;
+}
   #logoSection{
   text-align: center;
   display: flex; 
