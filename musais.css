@@ -49,7 +49,7 @@ body{
  text-align: center;
  display: flex; 
  align-items: center;
- margin: 1rem 0 5rem 45%;
+ margin: 1rem 0 5rem 37rem;
 }
 .sparkles{
  position: absolute;
@@ -425,45 +425,41 @@ footer img{
 @media (min-width: 320px) and (max-width: 768px){
  body{
   padding: 1rem;
+  overflow: hidden;
  }
  .heading{
   font-size: 15px;
  }
  .fa-crown{
-/*   color: gold;
-  font-size: small;
-  position: absolute;
-  top: 11.5rem; */
   display: none;
  }
  .heading .underline{
   width: 8rem;
  }
  .sparkles{
-/*   left: 24%;
-  top: 9rem; */
   display: none;
  }
  #flower{
   margin-left: -0.4rem;
  }
+ #logoSection{
+  text-align: center;
+  display: flex; 
+  align-items: center;
+  margin: 1rem 0 5rem 8rem;
+ }
  #Chat-Amena-Btn{
- color: black;
- margin-top: 0 auto;
- display: flex;
- justify-content: center;
- justify-self: center;
- gap: 0.3rem;
- padding: 1rem;
- border: none;
- font-weight: bolder;
- border-radius: 30px;
-}
+  color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  gap: 0.3rem;
+  padding: 1rem;
+ }
  .workDisplay{
   overflow: scroll;
   display: flex;
-  /* flex-shrink: 1;
-  flex-grow: 1; */
   flex-wrap: nowrap;
   overflow-y: scroll;
  }
@@ -474,7 +470,6 @@ footer img{
   text-align: center;
   border-radius: 25px;
   margin: 1rem;
-  /* box-shadow: 2px 2px 2px 0.5px grey;   */
  }
 #why-Choose-Us .underline{
 display: none;
@@ -604,7 +599,8 @@ footer{
 }
 
 /* for screen resolution > mobile phones < PCs, Laptops */
-@media (min-width: 769px) and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 1023px){
+ 
  .sparkles{
   left: 35%;
   top: 8.5rem;
@@ -615,22 +611,62 @@ footer{
  #star{
   left: 1rem;
  }
- .price-Boxes{
-  display: flex;
-  flex-direction: row;
+  #logoSection{
+  text-align: center;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-left: -2rem;
+ }
+ #why-Choose-Us{
+  width: 40rem;
+  margin: 0 auto;
   margin-top: 1rem;
-  margin: 2rem 5rem;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
  }
- .side-boxes{
-  width: 22rem;
+ #why-Choose-Us .underline{
+  margin-left: 2rem;
+  width: 29rem;
+  transform: rotate(-1deg);
  }
- .center-box{
-  width: 20rem;
+ #ClientsChoice{
+  width: 30rem;
  }
- .getStarted{
-  padding: 0.9rem;
+ #ChooseUS-heading{
+ font-size: 40px;
+}
+ .workDisplay{
+  overflow: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
  }
+ .price-Boxes{
+ margin: 2rem 1rem;
+ height: 25rem;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+}
+.side-boxes{
+ border: 1px solid rgb(223, 208, 208);
+ padding: 2rem;
+ margin-top: 1rem;
+ width: 21.5rem;
+ height: 27rem;
+ border-radius: 25px;
+ background: linear-gradient(to bottom left, rgb(5, 17, 5), rgb(8, 32, 8),  rgb(5, 17, 5));
+ box-shadow: 0 0 10px rgba(104, 98, 98, 0.5);
+}
+.center-box{
+ border: 1px solid gainsboro;
+ background: linear-gradient(-135deg, #06290b, rgb(24, 39, 30), #080808);
+ padding: 2rem;
+ width: 21.5rem;
+ border-radius: 25px;
+ height: 27rem;
+ box-shadow: 0 0 10px rgba(231, 224, 224, 0.5);
+}
  footer{
   margin-top: 0;
  }
