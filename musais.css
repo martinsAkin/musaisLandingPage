@@ -422,7 +422,7 @@ footer img{
 
 
 /* media Query */
-@media (min-width: 320px) and (max-width: 900px){
+@media (min-width: 320px) and (max-width: 768px){
  body{
   padding: 1rem;
  }
@@ -592,7 +592,7 @@ footer{
 }
 
 /* for screen resolution > mobile phones < PCs, Laptops */
-@media (min-width: 768px) and (max-width: 1250px){
+@media (min-width: 769px) and (max-width: 1200px){
  .sparkles{
   left: 35%;
   top: 8.5rem;
