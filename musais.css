@@ -423,21 +423,26 @@ footer img{
 
 /* media Query */
 @media (min-width: 320px) and (max-width: 900px){
+ body{
+  padding: 1rem;
+ }
  .heading{
   font-size: 15px;
  }
  .fa-crown{
-  color: gold;
+/*   color: gold;
   font-size: small;
   position: absolute;
-  top: 11.5rem;
+  top: 11.5rem; */
+  display: none;
  }
  .heading .underline{
   width: 8rem;
  }
  .sparkles{
-  left: 24%;
-  top: 9rem;
+/*   left: 24%;
+  top: 9rem; */
+  display: none;
  }
  #flower{
   margin-left: -0.4rem;
@@ -473,8 +478,12 @@ display: none;
 }
 #ClientsChoice{
  display: flex;
+ flex-direction: column;
  gap: 0.5rem;
 }
+ .choice p{
+  display: none;
+ }
 .designs{
  display: flex;
  align-items: center;
@@ -551,7 +560,7 @@ display: none;
  width: 8rem;
 }
 .price-Boxes{
- margin: 2rem 7rem;
+ margin: 2rem 4.5rem;
  height: 25rem;
  display: flex;
  justify-content: center;
