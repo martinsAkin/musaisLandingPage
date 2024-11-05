@@ -447,12 +447,6 @@ footer img{
  #flower{
   margin-left: -0.4rem;
  }
- #Main-star{
-  height: 1rem;
- }
- #star{
-  left: 1rem;
- }
  .workDisplay{
   overflow: scroll;
   display: flex;
@@ -566,7 +560,7 @@ display: none;
  justify-content: center;
  gap: 1rem;
  flex-direction: column;
- margin-top: 18rem;
+ margin-top: 19rem;
 }
 .side-boxes{
  padding: 1rem;
